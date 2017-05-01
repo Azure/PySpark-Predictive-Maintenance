@@ -22,6 +22,7 @@ There are  three Jupyter Notebooks on this GitHub repository.
 | Notebook_2_FeatureEngineering_RollingCompute | How to deal with large amount of rolling feature compute. This was one of the major road blocks. |
 | Notebook_3_Labeling_FeatureSelection_Modeling | Over-labeling technique, feature reduction, down-sampling, modeling, hyper-parameter tuning, cross-validation. |
 
+We formatted this tutorial as Jupyter notebooks because it is easy to show the step-by-step process this way. You can also easily compile the executable PySpark script(s) using your favorite IDE.
 
 ## Hardware Specifications
 
