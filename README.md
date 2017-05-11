@@ -3,7 +3,7 @@
 
 Predictive maintenance is one of the most common machine learning use cases and with the latest advancements in information technology, the volume of stored data is growing faster in this domain than ever before which makes it necessary to leverage big data analytic capabilities to efficiently transform large amounts of data into business intelligence. Microsoft has published a series of learning materials including blogs, solution templates, modeling guides and sample tutorials in the domain of predictive maintenance. In this tutorial, we extend those materials by providing a detailed step-by-step process of using Spark Python API [PySpark](https://spark.apache.org/docs/2.0.2/api/python/index.html) to demonstrate how to approach predictive maintenance for big data scenarios. The tutorial covers typical data science steps such as data ingestion, cleansing, feature engineering and model development.
 
-## Business Scenario Data
+## Business Scenario and Data
 
 The input data is simulated to reflect features that are generic for most of the predictive maintenance scenarios. For a relatively quick iteration, the data was simulated to be around 1.3 GB but the same PySpark framework can be easily applied to a much larger data set. The data is hosted on a publicly accessible Azure Blob Storage container and can be downloaded from [here](https://pysparksampledata.blob.core.windows.net/sampledata/sampledata.csv). In this tutorial, we import the data directly from the blob storage.
 
