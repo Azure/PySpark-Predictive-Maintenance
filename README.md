@@ -52,7 +52,7 @@ Here are some configurations that needs to be performed before running this tuto
 
 Another error you might encounter further down the road is that "spark job failed with no space left on device". It is because Spark uses /tmp directory to store intermediate data. To solve this problem, add the following line to the spark-defaults.conf.
 ```bash
-"spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
+spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
 ```
 
 ## References
@@ -68,6 +68,11 @@ Another error you might encounter further down the road is that "spark job faile
 5.  https://gallery.cortanaintelligence.com/Solution/Predictive-Maintenance-10
 
 6.  https://gallery.cortanaintelligence.com/Experiment/Predictive-Maintenance-Template-2
+
+
+## Acknowledgement
+
+Special thanks to Said Bleik, Yiyu Chen and Ke Huang on great discussions on PySpark. Thank Fidan Boylu Uz for proof reading and modifying the tutorial materials.
 
 
 ## Contributing and Adapting
