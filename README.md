@@ -50,6 +50,11 @@ Here are some configurations that needs to be performed before running this tuto
 	*   hard    nofile 65536
 	```
 
+Another error you might encounter further down the road is that "spark job failed with no space left on device". It is because Spark uses /tmp directory to store intermediate data. To solve this problem, add the following line to the spark-defaults.conf.
+```bash
+"spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
+```
+
 ## References
 
 1.  https://blogs.technet.microsoft.com/machinelearning/2016/04/21/predictive-maintenance-modelling-guide-in-the-cortana-intelligence-gallery/
