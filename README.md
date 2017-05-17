@@ -49,6 +49,10 @@ Here are some configurations that needs to be performed before running this tuto
 	*    soft    nofile 65536
 	*   hard    nofile 65536
 	```
+3. Sometimes you might encounter the error of job failed with no space left on device. It is because by default Spark uses /tmp directory to store intermediate data. To solve this problem, add the following line to the **spark-defaults.conf**
+```bash
+spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
+```
 
 ## References
 
