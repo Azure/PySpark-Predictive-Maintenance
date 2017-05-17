@@ -32,7 +32,7 @@ Here are some configurations that needs to be performed before running this tuto
 1. For standalone Spark, driver is the executor. The default memory for executor is 5g. This needs to be manually changed in "spark-defaults.conf" by using the following commands from the Linux Terminal:
 
 	```bash
-	 cd /dsvm/tools/spark/current/conf
+	cd /dsvm/tools/spark/current/conf
 	sudo cp spark-defaults.conf.template spark-defaults.conf
 	sudo vi spark-defaults.conf
 	```
@@ -46,7 +46,7 @@ Here are some configurations that needs to be performed before running this tuto
 
 	Add following lines into the configuration file, logout to make the change effective, then login again:
 	```bash
-	*    soft    nofile 65536
+	*   soft    nofile 65536
 	*   hard    nofile 65536
 	```
 
