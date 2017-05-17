@@ -72,7 +72,7 @@ spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
 
 ## Acknowledgement
 
-Special thanks to Said Bleik, Yiyu Chen and Ke Huang on great discussions on PySpark. Thank Fidan Boylu Uz for proof reading and modifying the tutorial materials.
+Special thanks to Said Bleik, Yiyu Chen and Ke Huang for great discussions on PySpark. Thank Fidan Boylu Uz for proof reading and modifying the tutorial materials.
 
 
 ## Contributing and Adapting
