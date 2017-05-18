@@ -23,9 +23,11 @@ We formatted this tutorial as Jupyter notebooks because it is easy to show the s
 
 ## Hardware Specifications
 
-The hardware used in this tutorial is a [Linux Data Science Virtue Machine](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-linux-dsvm-intro) with 32 cores and 448 GB memory. For more detailed information of the Data Science Virtue Machine, please visit the link. For the size of the data used in this tutorial (1.3 GB), a machine with less cores and memory would also be adequate. However, in real life scenarios, one should choose the hardware configuration that is appropriate for the specific big data use case. Jupyter Notebooks included in this tutorial can also be downloaded and run on any machine that has PySpark enabled.
+The hardware used in this tutorial is a [Linux Data Science Virtual Machine](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-linux-dsvm-intro) with 32 cores and 448 GB memory. For more detailed information of the Data Science Virtue Machine, please visit the link. For the size of the data used in this tutorial (1.3 GB), a machine with less cores and memory would also be adequate. However, in real life scenarios, one should choose the hardware configuration that is appropriate for the specific big data use case. Jupyter Notebooks included in this tutorial can also be downloaded and run on any machine that has PySpark enabled.
 
 ## Spark Configuration
+
+The Spark version installed on the Linux Data Science Virtual Machine for this tutorial is **2.0.2** with Python version **2.7.5**.
 
 Here are some configurations that needs to be performed before running this tutorial on a Linux machine.
 
@@ -54,11 +56,6 @@ Here are some configurations that needs to be performed before running this tuto
 spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
 ```
 
-Another error you might encounter further down the road is that "spark job failed with no space left on device". It is because Spark uses /tmp directory to store intermediate data. To solve this problem, add the following line to the spark-defaults.conf.
-```bash
-spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
-```
-
 ## References
 
 1.  https://blogs.technet.microsoft.com/machinelearning/2016/04/21/predictive-maintenance-modelling-guide-in-the-cortana-intelligence-gallery/
@@ -76,7 +73,7 @@ spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
 
 ## Acknowledgement
 
-Special thanks to Said Bleik, Yiyu Chen and Ke Huang for great discussions on PySpark. Thank Fidan Boylu Uz for proof reading and modifying the tutorial materials.
+Special thanks to Said Bleik, Yiyu Chen and Ke Huang for great discussions about PySpark. Thank Fidan Boylu Uz for proof reading and modifying the tutorial materials.
 
 
 ## Contributing and Adapting
