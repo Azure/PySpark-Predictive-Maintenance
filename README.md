@@ -56,6 +56,11 @@ Here are some configurations that needs to be performed before running this tuto
 spark.local.dir                     SOME/DIR/WHERE/YOU/HAVE/SPACE
 ```
 
+## Prerequisites
+
+ 1. The user should already know some basics of PySpark. This is not meant to be a PySpark 101 tutorial. 
+ 2. Have PySpark (Spark 2.0., Python 2.7) already configured. Please note if you are using Python 3 on your machine, a few functions in this tutorial require some very minor tweaks because some Python 2 functions deprecated in Python 3.
+
 ## References
 
 1.  https://blogs.technet.microsoft.com/machinelearning/2016/04/21/predictive-maintenance-modelling-guide-in-the-cortana-intelligence-gallery/
